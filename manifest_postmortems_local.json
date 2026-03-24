@@ -1,0 +1,1576 @@
+{
+  "created_at": "2026-02-19T00:14:20.038715+00:00",
+  "master_file": "curation/post_mortems_master.md",
+  "count_files_written": 196,
+  "count_urls": 196,
+  "items": [
+    {
+      "file": "data/postmortems/allegro.tech__allegro-e-commerce-site-went-down-after-a-sudden-traffic-spike-caused-by-a-marketing-campa.md",
+      "source_name": "Allegro",
+      "category": "Config Errors",
+      "source_url": "https://allegro.tech/2018/08/postmortem-why-allegro-went-down.html",
+      "domain": "allegro.tech",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.cloudflare.com__cloudflare-a-bad-config-router-rule-caused-all-of-their-edge-routers-to-crash-taking-down-.md",
+      "source_name": "Cloudflare",
+      "category": "Config Errors",
+      "source_url": "https://blog.cloudflare.com/todays-outage-post-mortem-82515/",
+      "domain": "blog.cloudflare.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.cloudflare.com__cloudflare-during-a-maintenance-of-their-private-backbone-network-an-engineer-made-a-typo-.md",
+      "source_name": "Cloudflare",
+      "category": "Config Errors",
+      "source_url": "https://blog.cloudflare.com/cloudflare-outage-on-july-17-2020/",
+      "domain": "blog.cloudflare.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.cloudflare.com__cloudflare-an-incorrect-ordering-of-the-disabled-bgp-advertised-prefixes-caused-malfunctio.md",
+      "source_name": "Cloudflare",
+      "category": "Config Errors",
+      "source_url": "https://blog.cloudflare.com/cloudflare-outage-on-june-21-2022/",
+      "domain": "blog.cloudflare.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.cloudflare.com__cloudflare-a-change-to-our-tiered-cache-system-caused-some-requests-to-fail-for-users-with.md",
+      "source_name": "Cloudflare",
+      "category": "Config Errors",
+      "source_url": "https://blog.cloudflare.com/partial-cloudflare-outage-on-october-25-2022/",
+      "domain": "blog.cloudflare.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.cloudflare.com__cloudflare-several-cloudflare-services-became-unavailable-for-121-minutes-on-january-24-20.md",
+      "source_name": "Cloudflare",
+      "category": "Config Errors",
+      "source_url": "https://blog.cloudflare.com/cloudflare-incident-on-january-24th-2023/",
+      "domain": "blog.cloudflare.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.cloudflare.com__cloudflare-on-4-october-2023-cloudflare-experienced-dns-resolution-problems-starting-at-07.md",
+      "source_name": "Cloudflare",
+      "category": "Config Errors",
+      "source_url": "https://blog.cloudflare.com/1-1-1-1-lookup-failures-on-october-4th-2023/",
+      "domain": "blog.cloudflare.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.cloudflare.com__cloudflare-on-18-nov-2025-a-change-in-permissions-in-a-database-in-cloudflare-s-bot-detect.md",
+      "source_name": "Cloudflare",
+      "category": "Config Errors",
+      "source_url": "https://blog.cloudflare.com/18-november-2025-outage/",
+      "domain": "blog.cloudflare.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/datadoghq.com__datadog-a-bad-service-discovery-config-in-one-of-the-clients-brought-down-service-discover.md",
+      "source_name": "DataDog",
+      "category": "Config Errors",
+      "source_url": "https://www.datadoghq.com/blog/2020-09-25-infrastructure-connectivity-issue/",
+      "domain": "datadoghq.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/enomstatus.com__enom-on-january-15-2022-at-9-00-am-et-tucows-engineering-team-began-planned-maintenance-wo.md",
+      "source_name": "Enom",
+      "category": "Config Errors",
+      "source_url": "https://enomstatus.com/incidents/03q064h6rb7x",
+      "domain": "enomstatus.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/codeascraft.com__etsy-sending-multicast-traffic-without-properly-configuring-switches-caused-an-etsy-global.md",
+      "source_name": "Etsy",
+      "category": "Config Errors",
+      "source_url": "https://codeascraft.com/2012/01/23/solr-bittorrent-index-replication/",
+      "domain": "codeascraft.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/engineering.fb.com__facebook-configuration-changes-to-facebook-s-backbone-routers-caused-a-global-outage-of-al.md",
+      "source_name": "Facebook",
+      "category": "Config Errors",
+      "source_url": "https://engineering.fb.com/2021/10/05/networking-traffic/outage-details/",
+      "domain": "engineering.fb.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.thousandeyes.com__facebook-a-bad-config-took-down-both-facebook-and-instagram.md",
+      "source_name": "Facebook",
+      "category": "Config Errors",
+      "source_url": "https://blog.thousandeyes.com/facebook-outage-deep-dive/",
+      "domain": "blog.thousandeyes.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/hacks.mozilla.org__firefox-on-january-13th-2022-a-specific-code-path-in-firefox-s-network-stack-triggered-a-p.md",
+      "source_name": "Firefox",
+      "category": "Config Errors",
+      "source_url": "https://hacks.mozilla.org/2022/02/retrospective-and-technical-details-on-the-recent-firefox-outage/",
+      "domain": "hacks.mozilla.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/gocardless.com__gocardless-a-bad-config-combined-with-an-uncommon-set-of-failures-led-to-an-outage-of-a-da.md",
+      "source_name": "GoCardless",
+      "category": "Config Errors",
+      "source_url": "https://gocardless.com/blog/incident-review-api-and-dashboard-outage-on-10th-october/",
+      "domain": "gocardless.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/cloud.google.com__google-initial-gcve-provisioning-was-performed-with-a-legacy-option-which-lead-to-a-fixed-.md",
+      "source_name": "Google",
+      "category": "Config Errors",
+      "source_url": "https://cloud.google.com/blog/products/infrastructure/details-of-google-cloud-gcve-incident",
+      "domain": "cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.cloud.google.com__google-a-bad-config-autogenerated-removed-all-google-compute-engine-ip-blocks-from-bgp-ann.md",
+      "source_name": "Google",
+      "category": "Config Errors",
+      "source_url": "https://status.cloud.google.com/incident/compute/16007",
+      "domain": "status.cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/googleblog.blogspot.com__google-a-bad-config-autogenerated-took-down-most-google-services.md",
+      "source_name": "Google",
+      "category": "Config Errors",
+      "source_url": "https://googleblog.blogspot.com/2014/01/todays-outage-for-several-google.html",
+      "domain": "googleblog.blogspot.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/web.archive.org__google-a-bad-config-caused-a-quota-service-to-fail-which-caused-multiple-services-to-fail-.md",
+      "source_name": "Google",
+      "category": "Config Errors",
+      "source_url": "https://web.archive.org/web/20151008061104/http://code.google.com/p/chromium/issues/detail?id=165171",
+      "domain": "web.archive.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/googleblog.blogspot.com__google-was-checked-into-the-url-blacklist-causing-every-url-to-show-a-warning.md",
+      "source_name": "Google",
+      "category": "Config Errors",
+      "source_url": "https://googleblog.blogspot.com/2009/01/this-site-may-harm-your-computer-on.html",
+      "domain": "googleblog.blogspot.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.cloud.google.com__google-a-bug-in-configuration-roll-out-to-a-load-balancer-lead-to-increased-error-rates-fo.md",
+      "source_name": "Google",
+      "category": "Config Errors",
+      "source_url": "https://status.cloud.google.com/incident/compute/17007#5659118702428160",
+      "domain": "status.cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.cloud.google.com__google-a-configuration-change-intended-to-address-an-uptick-in-demand-for-metadata-storage.md",
+      "source_name": "Google",
+      "category": "Config Errors",
+      "source_url": "https://status.cloud.google.com/incident/storage/19002",
+      "domain": "status.cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.cloud.google.com__google-two-misconfigurations-plus-a-software-bug-caused-a-massive-google-cloud-network-fai.md",
+      "source_name": "Google",
+      "category": "Config Errors",
+      "source_url": "https://status.cloud.google.com/incident/cloud-networking/19009",
+      "domain": "status.cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.cloud.google.com__google-googles-front-end-load-balancing-service-experienced-failures-resulting-in-impact-t.md",
+      "source_name": "Google",
+      "category": "Config Errors",
+      "source_url": "https://status.cloud.google.com/incidents/1xkAB1KmLrh5g3v9ZEZ7",
+      "domain": "status.cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.cloud.google.com__google-google-cloud-networking-experienced-issues-with-google-cloud-load-balancing-gclb-se.md",
+      "source_name": "Google",
+      "category": "Config Errors",
+      "source_url": "https://status.cloud.google.com/incidents/6PM5mNd43NbMqjCZ5REh",
+      "domain": "status.cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.cloud.google.com__google-google-cloud-networking-experienced-reduced-capacity-for-lower-priority-traffic-suc.md",
+      "source_name": "Google",
+      "category": "Config Errors",
+      "source_url": "https://status.cloud.google.com/incidents/vLsxuKoRvykNHW3nnhsJ",
+      "domain": "status.cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.heroku.com__heroku-an-automated-remote-configuration-change-did-not-propagate-fully-web-dynos-could-no.md",
+      "source_name": "Heroku",
+      "category": "Config Errors",
+      "source_url": "https://status.heroku.com/incidents/1091",
+      "domain": "status.heroku.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.heroku.com__heroku-an-incorrect-deployment-process-caused-new-config-variables-not-to-be-used-when-the.md",
+      "source_name": "Heroku",
+      "category": "Config Errors",
+      "source_url": "https://blog.heroku.com/how-i-broke-git-push-heroku-main",
+      "domain": "blog.heroku.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/keepthescore.co__keepthescore-engineers-deleted-the-production-database-by-accident-database-is-a-managed-d.md",
+      "source_name": "Keepthescore",
+      "category": "Config Errors",
+      "source_url": "https://keepthescore.co/blog/posts/deleting_the_production_database/",
+      "domain": "keepthescore.co",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/azure.microsoft.com__microsoft-a-bad-config-took-down-azure-storage.md",
+      "source_name": "Microsoft",
+      "category": "Config Errors",
+      "source_url": "https://azure.microsoft.com/en-us/blog/update-on-azure-storage-service-interruption/",
+      "domain": "azure.microsoft.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.npmjs.org__npm-fastly-configuration-change-caused-backend-routing-issue-to-be-exact-the-issue-is-that.md",
+      "source_name": "NPM",
+      "category": "Config Errors",
+      "source_url": "https://blog.npmjs.org/post/74949623024/2014-01-28-outage-postmortem.html",
+      "domain": "blog.npmjs.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/indyweek.com__owasa-the-wrong-push-of-a-button-lead-to-a-water-treatment-plant-shutting-down-due-to-too-.md",
+      "source_name": "OWASA",
+      "category": "Config Errors",
+      "source_url": "https://indyweek.com/news/archives/human-error-caused-owasa-fluoride-overdose-owasa-sorry/",
+      "domain": "indyweek.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.pagerduty.com__pagerduty-on-december-15th-2021-at-00-17-utc-we-deployed-a-dns-configuration-change-in-pag.md",
+      "source_name": "PagerDuty",
+      "category": "Config Errors",
+      "source_url": "https://status.pagerduty.com/incidents/vbp7ht2647l8",
+      "domain": "status.pagerduty.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/razorpay.com__razorpay-a-rds-hardware-failure-highlighted-an-incorrect-mysql-configuration-which-resulte.md",
+      "source_name": "Razorpay",
+      "category": "Config Errors",
+      "source_url": "https://razorpay.com/blog/day-of-rds-multi-az-failover/",
+      "domain": "razorpay.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.rust-lang.org__rust-lang-on-wednesday-2023-01-25-at-09-15-utc-we-deployed-changes-to-the-production-infra.md",
+      "source_name": "rust-lang",
+      "category": "Config Errors",
+      "source_url": "https://blog.rust-lang.org/inside-rust/2023/02/08/dns-outage-portmortem.html",
+      "domain": "blog.rust-lang.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.rust-lang.org__rust-lang-on-2023-07-20-between-12-17-and-12-30-utc-all-crate-downloads-from-crates-io-wer.md",
+      "source_name": "rust-lang",
+      "category": "Config Errors",
+      "source_url": "https://blog.rust-lang.org/inside-rust/2023/07/21/crates-io-postmortem.html",
+      "domain": "blog.rust-lang.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/stackstatus.net__stack-overflow-a-bad-firewall-config-blocked-stackexchange-stackoverflow.md",
+      "source_name": "Stack Overflow",
+      "category": "Config Errors",
+      "source_url": "https://stackstatus.net/post/96025967369/outage-post-mortem-august-25th-2014",
+      "domain": "stackstatus.net",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.sentry.io__sentry-wrong-amazon-s3-settings-on-backups-lead-to-data-leak.md",
+      "source_name": "Sentry",
+      "category": "Config Errors",
+      "source_url": "https://blog.sentry.io/2016/06/14/security-incident-june-12-2016",
+      "domain": "blog.sentry.io",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/traviscistatus.com__travisci-a-configuration-issue-incomplete-password-rotation-led-to-leaking-vms-leading-to-.md",
+      "source_name": "TravisCI",
+      "category": "Config Errors",
+      "source_url": "https://www.traviscistatus.com/incidents/khzk8bg4p9sy",
+      "domain": "traviscistatus.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.travis-ci.com__travisci-a-configuration-issue-automated-age-based-google-compute-engine-vm-image-cleanup-.md",
+      "source_name": "TravisCI",
+      "category": "Config Errors",
+      "source_url": "https://blog.travis-ci.com/2016-09-30-the-day-we-deleted-our-vm-images/",
+      "domain": "blog.travis-ci.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/traviscistatus.com__travisci-a-configuration-change-made-builds-start-to-fail-manual-rollback-broke.md",
+      "source_name": "TravisCI",
+      "category": "Config Errors",
+      "source_url": "https://www.traviscistatus.com/incidents/sxrh0l46czqn",
+      "domain": "traviscistatus.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/traviscistatus.com__travisci-accidental-environment-variable-made-tests-truncate-production-database.md",
+      "source_name": "TravisCI",
+      "category": "Config Errors",
+      "source_url": "https://www.traviscistatus.com/incidents/z2b3lz2kwcfp",
+      "domain": "traviscistatus.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/assets.publishing.service.gov.uk__tui-prior-to-the-incident-flight-the-reservation-system-from-which-the-load-sheet-was-prod.md",
+      "source_name": "TUI",
+      "category": "Config Errors",
+      "source_url": "https://assets.publishing.service.gov.uk/media/604f423be90e077fdf88493f/Boeing_737-8K5_G-TAWG_04-21.pdf",
+      "domain": "assets.publishing.service.gov.uk",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.turso.tech__turso-incorrectly-configured-db-backup-identifiers-led-to-data-leaks-for-free-tier-custome.md",
+      "source_name": "Turso",
+      "category": "Config Errors",
+      "source_url": "https://blog.turso.tech/incident-2023-12-04-data-leak-and-loss-in-some-free-tier-databases-7cba5bc7",
+      "domain": "blog.turso.tech",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.thousandeyes.com__valve-although-there-s-no-official-postmortem-it-looks-like-a-bad-bgp-config-severed-valve.md",
+      "source_name": "Valve",
+      "category": "Config Errors",
+      "source_url": "https://blog.thousandeyes.com/steam-outage-monitor-data-center-connectivity/",
+      "domain": "blog.thousandeyes.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/aws.amazon.com__amazon-an-unknown-event-caused-a-transformer-to-fail-one-of-the-plcs-that-checks-that-gene.md",
+      "source_name": "Amazon",
+      "category": "Hardware/Power Failures",
+      "source_url": "https://aws.amazon.com/message/2329B7/",
+      "domain": "aws.amazon.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/aws.amazon.com__amazon-bad-weather-caused-power-failures-throughout-aws-us-east-a-single-backup-generator-.md",
+      "source_name": "Amazon",
+      "category": "Hardware/Power Failures",
+      "source_url": "https://aws.amazon.com/message/67457/",
+      "domain": "aws.amazon.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/aws.amazon.com__amazon-at-10-25pm-pdt-on-june-4-loss-of-power-at-an-aws-sydney-facility-resulting-from-sev.md",
+      "source_name": "Amazon",
+      "category": "Hardware/Power Failures",
+      "source_url": "https://aws.amazon.com/message/4372T8/",
+      "domain": "aws.amazon.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/datatracker.ietf.org__arpanet-a-malfunctioning-imp-interface-message-processor-https-en-wikipedia-org-wiki-inter.md",
+      "source_name": "ARPANET",
+      "category": "Hardware/Power Failures",
+      "source_url": "https://datatracker.ietf.org/doc/html/rfc789.html",
+      "domain": "datatracker.ietf.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.cloudflare.com__cloudflare-a-partial-switch-misbehavior-caused-a-cascading-byzantine-failure-which-impacte.md",
+      "source_name": "Cloudflare",
+      "category": "Hardware/Power Failures",
+      "source_url": "https://blog.cloudflare.com/a-byzantine-failure-in-the-real-world/",
+      "domain": "blog.cloudflare.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.cloudflare.com__cloudflare-flexential-data-center-power-failure-this-post-outlines-the-events-that-caused-.md",
+      "source_name": "Cloudflare",
+      "category": "Hardware/Power Failures",
+      "source_url": "https://blog.cloudflare.com/post-mortem-on-cloudflare-control-plane-and-analytics-outage/",
+      "domain": "blog.cloudflare.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/en.wikipedia.org__firstenergy-general-electric-firstenergy-had-a-local-failure-when-some-transmission-lines-.md",
+      "source_name": "FirstEnergy / General Electric",
+      "category": "Hardware/Power Failures",
+      "source_url": "https://en.wikipedia.org/wiki/Northeast_blackout_of_2003",
+      "domain": "en.wikipedia.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/github.com__github-on-january-28th-2016-github-experienced-a-disruption-in-the-power-at-their-primary-.md",
+      "source_name": "GitHub",
+      "category": "Hardware/Power Failures",
+      "source_url": "https://github.com/blog/2106-january-28th-incident-report",
+      "domain": "github.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.cloud.google.com__google-successive-lightning-strikes-on-their-european-datacenter-europe-west1-b-caused-los.md",
+      "source_name": "Google",
+      "category": "Hardware/Power Failures",
+      "source_url": "https://status.cloud.google.com/incident/compute/15056#5719570367119360",
+      "domain": "status.cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.cloud.google.com__google-on-tuesday-19-july-2022-at-06-33-us-pacific-a-simultaneous-failure-of-multiple-redu.md",
+      "source_name": "Google",
+      "category": "Hardware/Power Failures",
+      "source_url": "https://status.cloud.google.com/incidents/fmEL9i2fArADKawkZAa2",
+      "domain": "status.cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.pythonanywhere.com__pythonanywhere-a-storage-volume-failure-on-one-of-storage-servers-caused-a-number-of-outag.md",
+      "source_name": "PythonAnywhere",
+      "category": "Hardware/Power Failures",
+      "source_url": "https://blog.pythonanywhere.com/189/",
+      "domain": "blog.pythonanywhere.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/forbes.com__sun-sun-famously-didn-t-include-ecc-in-a-couple-generations-of-server-parts-this-resulted-.md",
+      "source_name": "Sun",
+      "category": "Hardware/Power Failures",
+      "source_url": "https://www.forbes.com/forbes/2000/1113/6613068a.html#6d1bdc036162",
+      "domain": "forbes.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/community.eveonline.com__ccp-games-a-typo-and-a-name-conflict-caused-the-installer-to-sometimes-delete-the-boot-ini.md",
+      "source_name": "CCP Games",
+      "category": "Conflicts",
+      "source_url": "https://community.eveonline.com/news/dev-blogs/about-the-boot.ini-issue/",
+      "domain": "community.eveonline.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.github.com__github-a-43-second-network-partition-during-maintenance-caused-mysql-master-failover-but-t.md",
+      "source_name": "GitHub",
+      "category": "Conflicts",
+      "source_url": "https://blog.github.com/2018-10-30-oct21-post-incident-analysis/",
+      "domain": "blog.github.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/gocardless.com__gocardless-all-queries-on-a-critical-postgresql-table-were-blocked-by-the-combination-of-a.md",
+      "source_name": "GoCardless",
+      "category": "Conflicts",
+      "source_url": "https://gocardless.com/blog/zero-downtime-postgres-migrations-the-hard-parts/",
+      "domain": "gocardless.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.cloud.google.com__google-many-changes-to-a-rarely-modified-load-balancer-were-applied-through-a-very-slow-co.md",
+      "source_name": "Google",
+      "category": "Conflicts",
+      "source_url": "https://status.cloud.google.com/incident/compute/17003#5660850647990272",
+      "domain": "status.cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.cloud.google.com__google-a-failure-of-a-component-on-a-fiber-path-from-one-of-the-central-us-gateway-campuse.md",
+      "source_name": "Google",
+      "category": "Conflicts",
+      "source_url": "https://status.cloud.google.com/incidents/eo76pxZiDgWVz4z3kmUv",
+      "domain": "status.cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/dougseven.com__knight-capital-a-combination-of-conflicting-deployed-versions-and-re-using-a-previously-us.md",
+      "source_name": "Knight Capital",
+      "category": "Conflicts",
+      "source_url": "https://dougseven.com/2014/04/17/knightmare-a-devops-cautionary-tale/",
+      "domain": "dougseven.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/digital.ai__webkit-code-repository-the-webkit-repository-a-subversion-repository-configured-to-use-ded.md",
+      "source_name": "WebKit code repository",
+      "category": "Conflicts",
+      "source_url": "https://digital.ai/catalyst-blog/subversion-sha1-collision-problem-statement-prevention-and-remediation-options",
+      "domain": "digital.ai",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/azure.microsoft.com__azure-certificates-that-were-valid-for-one-year-were-created-instead-of-using-an-appropria.md",
+      "source_name": "Azure",
+      "category": "Time",
+      "source_url": "https://azure.microsoft.com/en-us/blog/summary-of-windows-azure-service-disruption-on-feb-29th-2012/",
+      "domain": "azure.microsoft.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.cloudflare.com__cloudflare-backwards-time-flow-from-tracking-the-27th-leap-second-on-2016-12-31t23-59-60z-.md",
+      "source_name": "Cloudflare",
+      "category": "Time",
+      "source_url": "https://blog.cloudflare.com/how-and-why-the-leap-second-affected-cloudflare-dns/",
+      "domain": "blog.cloudflare.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/lkml.org__linux-leap-second-code-was-called-from-the-timer-interrupt-handler-which-held-xtime-lock-t.md",
+      "source_name": "Linux",
+      "category": "Time",
+      "source_url": "https://lkml.org/lkml/2009/1/2/373",
+      "domain": "lkml.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/lkml.org__linux-when-a-leap-second-occurred-clock-realtime-was-rewound-by-one-second-this-was-not-do.md",
+      "source_name": "Linux",
+      "category": "Time",
+      "source_url": "https://lkml.org/lkml/2012/7/1/203",
+      "domain": "lkml.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/hacks.mozilla.org__mozilla-most-firefox-add-ons-stopped-working-around-may-4th-2019-when-a-certificate-expire.md",
+      "source_name": "Mozilla",
+      "category": "Time",
+      "source_url": "https://hacks.mozilla.org/2019/07/add-ons-outage-post-mortem-result/",
+      "domain": "hacks.mozilla.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/github.blog__github-github-platform-encountered-a-novel-failure-mode-when-processing-a-schema-migration.md",
+      "source_name": "Github",
+      "category": "Database",
+      "source_url": "https://github.blog/2021-12-01-github-availability-report-november-2021/",
+      "domain": "github.blog",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.heroku.com__heroku-at-15-05-utc-on-june-8-2023-a-database-error-occurred-where-a-foreign-key-used-a-sm.md",
+      "source_name": "Heroku",
+      "category": "Database",
+      "source_url": "https://status.heroku.com/incidents/2558",
+      "domain": "status.heroku.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/allegro.tech__allegro-the-allegro-https-web-archive-org-web-20211204232004-https-allegro-pl-platform-suf.md",
+      "source_name": "Allegro",
+      "category": "Uncategorized",
+      "source_url": "https://allegro.tech/2015/01/allegro-cast-post-mortem.html",
+      "domain": "allegro.tech",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/aws.amazon.com__amazon-human-error-on-february-28th-2017-9-37am-pst-the-amazon-s3-team-was-debugging-a-min.md",
+      "source_name": "Amazon",
+      "category": "Uncategorized",
+      "source_url": "https://aws.amazon.com/message/41926/",
+      "domain": "aws.amazon.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.aws.amazon.com__amazon-message-corruption-caused-the-distributed-server-state-function-to-overwhelm-resour.md",
+      "source_name": "Amazon",
+      "category": "Uncategorized",
+      "source_url": "https://status.aws.amazon.com/s3-20080720.html",
+      "domain": "status.aws.amazon.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/aws.amazon.com__amazon-human-error-during-a-routine-networking-upgrade-led-to-a-resource-crunch-exacerbate.md",
+      "source_name": "Amazon",
+      "category": "Uncategorized",
+      "source_url": "https://aws.amazon.com/message/65648/",
+      "domain": "aws.amazon.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/aws.amazon.com__amazon-inability-to-contact-a-data-collection-server-triggered-a-latent-memory-leak-bug-in.md",
+      "source_name": "Amazon",
+      "category": "Uncategorized",
+      "source_url": "https://aws.amazon.com/message/680342/",
+      "domain": "aws.amazon.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/aws.amazon.com__amazon-elastic-load-balancer-ran-into-problems-when-a-maintenance-process-that-was-inadver.md",
+      "source_name": "Amazon",
+      "category": "Uncategorized",
+      "source_url": "https://aws.amazon.com/message/680587/",
+      "domain": "aws.amazon.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/aws.amazon.com__amazon-a-network-disruption-caused-metadata-services-to-experience-load-that-caused-respon.md",
+      "source_name": "Amazon",
+      "category": "Uncategorized",
+      "source_url": "https://aws.amazon.com/message/5467D2/",
+      "domain": "aws.amazon.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/aws.amazon.com__amazon-scaling-the-front-end-cache-fleet-for-kinesis-caused-all-of-the-servers-in-the-flee.md",
+      "source_name": "Amazon",
+      "category": "Uncategorized",
+      "source_url": "https://aws.amazon.com/message/11201/",
+      "domain": "aws.amazon.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/aws.amazon.com__amazon-at-7-30-am-pst-an-automated-activity-to-scale-capacity-of-one-of-the-aws-services-h.md",
+      "source_name": "Amazon",
+      "category": "Uncategorized",
+      "source_url": "https://aws.amazon.com/message/12721/",
+      "domain": "aws.amazon.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/medium.com__appnexus-a-double-free-revealed-by-a-database-update-caused-all-impression-bus-servers-to-.md",
+      "source_name": "AppNexus",
+      "category": "Uncategorized",
+      "source_url": "https://medium.com/xandr-tech/2013-09-17-outage-postmortem-586b19ae4307",
+      "domain": "medium.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/users.csc.calpoly.edu__at-t-a-bad-line-of-c-code-introduced-a-race-hazard-which-in-due-course-collapsed-the-phone.md",
+      "source_name": "AT&T",
+      "category": "Uncategorized",
+      "source_url": "https://users.csc.calpoly.edu/~jdalbey/SWE/Papers/att_collapse.html",
+      "domain": "users.csc.calpoly.edu",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/atlassian.com__atlassian-on-tuesday-april-5th-2022-starting-at-7-38-utc-775-atlassian-customers-lost-acce.md",
+      "source_name": "Atlassian",
+      "category": "Uncategorized",
+      "source_url": "https://www.atlassian.com/engineering/post-incident-review-april-2022-outage",
+      "domain": "atlassian.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/bbc.co.uk__bbc-online-in-july-2014-bbc-online-experienced-a-very-long-outage-of-several-of-its-popula.md",
+      "source_name": "BBC Online",
+      "category": "Uncategorized",
+      "source_url": "https://www.bbc.co.uk/blogs/internet/entries/a37b0470-47d4-3991-82bb-a7d5b8803771",
+      "domain": "bbc.co.uk",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.bintray.com__bintray-in-july-2017-several-malicious-maven-packages-were-included-in-jcenter-with-an-imp.md",
+      "source_name": "Bintray",
+      "category": "Uncategorized",
+      "source_url": "https://status.bintray.com/incidents/w4dfr0rpznkt",
+      "domain": "status.bintray.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.bitly.com__bitly-hosted-source-code-repo-contained-credentials-granting-access-to-bitly-backups-inclu.md",
+      "source_name": "Bitly",
+      "category": "Uncategorized",
+      "source_url": "https://blog.bitly.com/post/85260908544/more-detail",
+      "domain": "blog.bitly.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/browserstack.com__browserstack-an-old-prototype-machine-with-the-shellshock-https-en-wikipedia-org-wiki-shel.md",
+      "source_name": "BrowserStack",
+      "category": "Uncategorized",
+      "source_url": "https://www.browserstack.com/attack-and-downtime-on-9-November",
+      "domain": "browserstack.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/building.buildkite.com__buildkite-database-capacity-downgrade-in-an-attempt-to-minimise-aws-spend-resulted-in-lack.md",
+      "source_name": "Buildkite",
+      "category": "Uncategorized",
+      "source_url": "https://building.buildkite.com/outage-post-mortem-for-august-23rd-82b619a3679b",
+      "domain": "building.buildkite.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/bungie.net__bungie-side-effects-of-a-bug-fix-for-wrong-timestamps-causes-data-loss-server-misconfigura.md",
+      "source_name": "Bungie",
+      "category": "Uncategorized",
+      "source_url": "https://www.bungie.net/en/News/Article/48723",
+      "domain": "bungie.net",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/community.eveonline.com__ccp-games-a-problematic-logging-channel-caused-cluster-nodes-dying-off-during-the-cluster-.md",
+      "source_name": "CCP Games",
+      "category": "Uncategorized",
+      "source_url": "https://community.eveonline.com/news/dev-blogs/behind-the-scenes-of-a-long-eve-online-downtime/",
+      "domain": "community.eveonline.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/community.eveonline.com__ccp-games-documents-a-stackless-python-memory-reuse-bug-that-took-years-to-track-down.md",
+      "source_name": "CCP Games",
+      "category": "Uncategorized",
+      "source_url": "https://community.eveonline.com/news/dev-blogs/sleeping-beauty/",
+      "domain": "community.eveonline.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/chef.io__chef-io-the-recipe-community-site-supermarket-crashed-two-hours-after-launch-due-to-interm.md",
+      "source_name": "Chef.io",
+      "category": "Uncategorized",
+      "source_url": "https://www.chef.io/blog/2014/07/10/supermarket-intermittent-unresponsiveness-postmortem/",
+      "domain": "chef.io",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/circleci.statuspage.io__circleci-a-github-outage-and-recovery-caused-an-unexpectedly-large-incoming-load-for-reaso.md",
+      "source_name": "CircleCI",
+      "category": "Uncategorized",
+      "source_url": "https://circleci.statuspage.io/incidents/hr0mm9xmm3x6",
+      "domain": "circleci.statuspage.io",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/circleci.com__circleci-by-january-4-2023-our-internal-investigation-had-determined-the-scope-of-the-intr.md",
+      "source_name": "CircleCI",
+      "category": "Uncategorized",
+      "source_url": "https://circleci.com/blog/jan-4-2023-incident-report/",
+      "domain": "circleci.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.cloudflare.com__cloudflare-a-parser-bug-caused-cloudflare-edge-servers-to-return-memory-that-contained-pri.md",
+      "source_name": "Cloudflare",
+      "category": "Uncategorized",
+      "source_url": "https://blog.cloudflare.com/incident-report-on-memory-leak-caused-by-cloudflare-parser-bug/",
+      "domain": "blog.cloudflare.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.cloudflare.com__cloudflare-a-cpu-exhaustion-was-caused-by-a-single-waf-rule-that-contained-a-poorly-writte.md",
+      "source_name": "Cloudflare",
+      "category": "Uncategorized",
+      "source_url": "https://blog.cloudflare.com/details-of-the-cloudflare-outage-on-july-2-2019/",
+      "domain": "blog.cloudflare.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/crowdstrike.com__crowdstrike-a-content-update-containing-undetected-errors-was-deployed-due-to-a-bug-in-the.md",
+      "source_name": "CrowdStrike",
+      "category": "Uncategorized",
+      "source_url": "https://www.crowdstrike.com/falcon-content-update-remediation-and-guidance-hub/",
+      "domain": "crowdstrike.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/datadoghq.com__datadog-after-an-automatic-upgrade-all-network-rules-were-removed-and-caused-a-24h-duratio.md",
+      "source_name": "Datadog",
+      "category": "Uncategorized",
+      "source_url": "https://www.datadoghq.com/blog/2023-03-08-multiregion-infrastructure-connectivity-issue/",
+      "domain": "datadoghq.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.discordapp.com__discord-a-flapping-service-lead-to-a-thundering-herd-reconnecting-to-it-once-it-came-up-th.md",
+      "source_name": "Discord",
+      "category": "Uncategorized",
+      "source_url": "https://status.discordapp.com/incidents/dj3l6lw926kl",
+      "domain": "status.discordapp.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.discordapp.com__discord-at-approximately-14-01-a-redis-instance-acting-as-the-primary-for-a-highly-availab.md",
+      "source_name": "Discord",
+      "category": "Uncategorized",
+      "source_url": "https://status.discordapp.com/incidents/qk9cdgnqnhcn",
+      "domain": "status.discordapp.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blogs.dropbox.com__dropbox-this-postmortem-is-pretty-thin-and-i-m-not-sure-what-happened-it-sounds-like-maybe.md",
+      "source_name": "Dropbox",
+      "category": "Uncategorized",
+      "source_url": "https://blogs.dropbox.com/tech/2014/01/outage-post-mortem/",
+      "domain": "blogs.dropbox.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.duo.com__duo-cascading-failure-due-to-a-request-queue-overloading-the-existing-insufficient-databas.md",
+      "source_name": "Duo",
+      "category": "Uncategorized",
+      "source_url": "https://status.duo.com/incidents/4w07bmvnt359",
+      "domain": "status.duo.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/epicgames.com__epic-games-extreme-load-a-new-peak-of-3-4-million-concurrent-users-resulted-in-a-mix-of-pa.md",
+      "source_name": "Epic Games",
+      "category": "Uncategorized",
+      "source_url": "https://www.epicgames.com/fortnite/en-US/news/postmortem-of-service-outage-at-3-4m-ccu",
+      "domain": "epicgames.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/en.wikipedia.org__european-space-agency-an-overflow-occurred-when-converting-a-16-bit-number-to-a-64-bit-num.md",
+      "source_name": "European Space Agency",
+      "category": "Uncategorized",
+      "source_url": "https://en.wikipedia.org/wiki/Cluster_%28spacecraft%29?oldid=217305667",
+      "domain": "en.wikipedia.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/elastic.co__elastic-elastic-cloud-customers-with-deployments-in-the-aws-eu-west-1-ireland-region-exper.md",
+      "source_name": "Elastic",
+      "category": "Uncategorized",
+      "source_url": "https://www.elastic.co/blog/elastic-cloud-january-18-2019-incident-report",
+      "domain": "elastic.co",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/elastic.co__elastic-elastic-cloud-customers-with-deployments-in-the-aws-us-east-1-region-experienced-d.md",
+      "source_name": "Elastic",
+      "category": "Uncategorized",
+      "source_url": "https://www.elastic.co/blog/elastic-cloud-incident-report-feburary-4-2019",
+      "domain": "elastic.co",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/eslint.org__eslint-on-july-12th-2018-an-attacker-compromised-the-npm-account-of-an-eslint-maintainer-a.md",
+      "source_name": "ESLint",
+      "category": "Uncategorized",
+      "source_url": "https://eslint.org/blog/2018/07/postmortem-for-malicious-package-publishes",
+      "domain": "eslint.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.etsy.com__etsy-first-a-deploy-that-was-supposed-to-be-a-small-bugfix-deploy-also-caused-live-databas.md",
+      "source_name": "Etsy",
+      "category": "Uncategorized",
+      "source_url": "https://blog.etsy.com/news/2012/demystifying-site-outages/",
+      "domain": "blog.etsy.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/fastly.com__fastly-global-outage-due-to-an-undiscovered-software-bug-that-surfaced-on-june-8-when-it-w.md",
+      "source_name": "Fastly",
+      "category": "Uncategorized",
+      "source_url": "https://www.fastly.com/blog/summary-of-june-8-outage",
+      "domain": "fastly.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/flowdock-resources.s3.amazonaws.com__flowdock-flowdock-instant-messaging-was-unavailable-for-approx-24-hrs-between-april-21-22-.md",
+      "source_name": "Flowdock",
+      "category": "Uncategorized",
+      "source_url": "https://flowdock-resources.s3.amazonaws.com/legal/Flowdock-RCA-For-Incident-On-2020-04-21.pdf",
+      "domain": "flowdock-resources.s3.amazonaws.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/news.ycombinator.com__foursquare-mongodb-fell-over-under-load-when-it-ran-out-of-memory-the-failure-was-catastro.md",
+      "source_name": "Foursquare",
+      "category": "Uncategorized",
+      "source_url": "https://news.ycombinator.com/item?id=1769761",
+      "domain": "news.ycombinator.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/wiki.gentoo.org__gentoo-an-entity-gained-access-to-the-gentoo-github-organization-removed-access-to-all-dev.md",
+      "source_name": "Gentoo",
+      "category": "Uncategorized",
+      "source_url": "https://wiki.gentoo.org/wiki/Github/2018-06-28",
+      "domain": "wiki.gentoo.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/githubengineering.com__github-on-february-28th-2018-github-experienced-a-ddos-attack-hitting-the-website-with-1-3.md",
+      "source_name": "GitHub",
+      "category": "Uncategorized",
+      "source_url": "https://githubengineering.com/ddos-incident-report/",
+      "domain": "githubengineering.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/docs.google.com__gitlab-after-the-primary-locked-up-and-was-restarted-it-was-brought-back-up-with-the-wrong.md",
+      "source_name": "Gitlab",
+      "category": "Uncategorized",
+      "source_url": "https://docs.google.com/document/d/1ScqXAdb6BjhsDzCo3qdPYbt1uULzgZqPO8zHeHHarS0/preview?sle=true&hl=en&forcehl=1#heading=h.dfbilqgnc5sf",
+      "domain": "docs.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/about.gitlab.com__gitlab-influx-of-requests-overloaded-the-database-caused-replication-to-lag-tired-admin-de.md",
+      "source_name": "Gitlab",
+      "category": "Uncategorized",
+      "source_url": "https://about.gitlab.com/2017/02/10/postmortem-of-database-outage-of-january-31/",
+      "domain": "about.gitlab.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/gist.github.com__google-a-mail-system-emailed-people-more-than-20-times-this-happened-because-mail-was-sent.md",
+      "source_name": "Google",
+      "category": "Uncategorized",
+      "source_url": "https://gist.github.com/jomo/2bae3821acb433d0446d",
+      "domain": "gist.github.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.cloud.google.com__google-filestore-enforces-a-global-limit-on-api-requests-to-limit-impact-in-overload-scena.md",
+      "source_name": "Google",
+      "category": "Uncategorized",
+      "source_url": "https://status.cloud.google.com/incidents/X8SNkK2BPyCrc1sveeiu",
+      "domain": "status.cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/google.com__google-the-google-meet-livestream-feature-experienced-disruptions-that-caused-intermittent.md",
+      "source_name": "Google",
+      "category": "Uncategorized",
+      "source_url": "https://www.google.com/appsstatus/dashboard/incidents/k71P8nHp32hgcMSsC3mR",
+      "domain": "google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.cloud.google.com__google-on-13-october-2022-23-30-us-pacific-there-was-an-unexpected-increase-of-incoming-an.md",
+      "source_name": "Google",
+      "category": "Uncategorized",
+      "source_url": "https://status.cloud.google.com/incidents/mREMLwZFe3FuLLn3zfTw",
+      "domain": "status.cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.cloud.google.com__google-a-policy-change-containing-blank-fields-triggered-a-null-pointer-exception-in-servi.md",
+      "source_name": "Google",
+      "category": "Uncategorized",
+      "source_url": "https://status.cloud.google.com/incidents/ow5i3PPK96RduMcb1SsW",
+      "domain": "status.cloud.google.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/gps.gov__gps-glonass-a-bad-update-that-caused-incorrect-orbital-mechanics-calculations-caused-gps-s.md",
+      "source_name": "GPS/GLONASS",
+      "category": "Uncategorized",
+      "source_url": "https://www.gps.gov/governance/advisory/meetings/2014-06/beutler1.pdf",
+      "domain": "gps.gov",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/bloomberg.com__healthcare-gov-a-large-organizational-failure-to-build-a-website-for-united-states-healthc.md",
+      "source_name": "Healthcare.gov",
+      "category": "Uncategorized",
+      "source_url": "https://www.bloomberg.com/opinion/articles/2015-09-16/how-healthcare-gov-went-so-so-wrong",
+      "domain": "bloomberg.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.heroku.com__heroku-having-a-system-that-requires-scheduled-manual-updates-resulted-in-an-error-which-c.md",
+      "source_name": "Heroku",
+      "category": "Uncategorized",
+      "source_url": "https://status.heroku.com/incidents/642?postmortem",
+      "domain": "status.heroku.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/engineering.heroku.com__heroku-an-upgrade-silently-disabled-a-check-that-was-meant-to-prevent-filesystem-corruptio.md",
+      "source_name": "Heroku",
+      "category": "Uncategorized",
+      "source_url": "https://engineering.heroku.com/blogs/2017-02-15-filesystem-corruption-on-heroku-dynos/",
+      "domain": "engineering.heroku.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.heroku.com__heroku-an-upstream-apt-update-broke-pinned-packages-which-lead-to-customers-experiencing-w.md",
+      "source_name": "Heroku",
+      "category": "Uncategorized",
+      "source_url": "https://status.heroku.com/incidents/1042",
+      "domain": "status.heroku.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.heroku.com__heroku-private-tokens-were-leaked-and-allowed-attackers-to-retrieve-data-both-in-internal-.md",
+      "source_name": "Heroku",
+      "category": "Uncategorized",
+      "source_url": "https://blog.heroku.com/april-2022-incident-review",
+      "domain": "blog.heroku.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.heroku.com__heroku-a-change-to-the-core-application-that-manages-the-underlying-infrastructure-for-the.md",
+      "source_name": "Heroku",
+      "category": "Uncategorized",
+      "source_url": "https://status.heroku.com/incidents/2451",
+      "domain": "status.heroku.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/brew.sh__homebrew-a-github-personal-access-token-with-recently-elevated-scopes-was-leaked-from-home.md",
+      "source_name": "Homebrew",
+      "category": "Uncategorized",
+      "source_url": "https://brew.sh/2018/08/05/security-incident-disclosure/",
+      "domain": "brew.sh",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/honeycomb.io__honeycomb-a-tale-of-multiple-incidents-happening-mostly-due-to-fast-growth.md",
+      "source_name": "Honeycomb",
+      "category": "Uncategorized",
+      "source_url": "https://www.honeycomb.io/blog/incident-resolution-september-retrospective/",
+      "domain": "honeycomb.io",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/honeycomb.io__honeycomb-another-story-of-multiple-incidents-that-ended-up-impacting-query-performance-ht.md",
+      "source_name": "Honeycomb",
+      "category": "Uncategorized",
+      "source_url": "https://www.honeycomb.io/blog/incident-review-designed-failing/",
+      "domain": "honeycomb.io",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/honeycomb.io__honeycomb-on-september-8th-2022-our-ingest-system-went-down-repeatedly-and-caused-interrup.md",
+      "source_name": "Honeycomb",
+      "category": "Uncategorized",
+      "source_url": "https://www.honeycomb.io/blog/incident-review-shepherd-cache-delays/",
+      "domain": "honeycomb.io",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/honeycomb.io__honeycomb-on-july-25th-2023-we-experienced-a-total-honeycomb-outage-it-impacted-all-user-f.md",
+      "source_name": "Honeycomb",
+      "category": "Uncategorized",
+      "source_url": "https://www.honeycomb.io/blog/incident-review-what-comes-up-must-first-go-down/",
+      "domain": "honeycomb.io",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/incident.io__incident-io-a-bad-event-poison-pill-in-the-async-workers-queue-triggered-unhandled-panics-.md",
+      "source_name": "incident.io",
+      "category": "Uncategorized",
+      "source_url": "https://incident.io/blog/intermittent-downtime",
+      "domain": "incident.io",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/cercind.gov.in__indian-electricity-grid-one-night-in-july-2012-a-skewed-electricity-supply-demand-profile-.md",
+      "source_name": "Indian Electricity Grid",
+      "category": "Uncategorized",
+      "source_url": "https://cercind.gov.in/2012/orders/Final_Report_Grid_Disturbance.pdf",
+      "domain": "cercind.gov.in",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/medium.com__instapaper-also-this-https-web-archive-org-web-20240911020547-https-blog-instapaper-com-po.md",
+      "source_name": "Instapaper",
+      "category": "Uncategorized",
+      "source_url": "https://medium.com/making-instapaper/instapaper-outage-cause-recovery-3c32a7e9cc5f",
+      "domain": "medium.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/web.archive.org__intel-a-scripting-bug-caused-the-generation-of-the-divider-logic-in-the-pentium-to-very-oc.md",
+      "source_name": "Intel",
+      "category": "Uncategorized",
+      "source_url": "https://web.archive.org/web/20241105190743/http://42gems.com/blog/?p=735",
+      "domain": "web.archive.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/joyent.com__joyent-operations-on-manta-were-blocked-because-a-lock-couldn-t-be-obtained-on-their-postg.md",
+      "source_name": "Joyent",
+      "category": "Uncategorized",
+      "source_url": "https://www.joyent.com/blog/manta-postmortem-7-27-2015",
+      "domain": "joyent.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/joyent.com__joyent-an-operator-used-a-tool-with-lax-input-validation-to-reboot-a-small-number-of-serve.md",
+      "source_name": "Joyent",
+      "category": "Uncategorized",
+      "source_url": "https://www.joyent.com/blog/postmortem-for-outage-of-us-east-1-may-27-2014",
+      "domain": "joyent.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/kickstarter.engineering__kickstarter-primary-db-became-inconsistent-with-all-replicas-which-wasn-t-detected-until-a.md",
+      "source_name": "Kickstarter",
+      "category": "Uncategorized",
+      "source_url": "https://kickstarter.engineering/the-day-the-replication-died-e543ba45f262",
+      "domain": "kickstarter.engineering",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/regmedia.co.uk__kings-college-london-3par-suffered-catastrophic-outage-which-highlighted-a-failure-in-inte.md",
+      "source_name": "Kings College London",
+      "category": "Uncategorized",
+      "source_url": "https://regmedia.co.uk/2017/02/23/kcl_external_review.pdf",
+      "domain": "regmedia.co.uk",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.launchdarkly.com__launchdarkly-rule-attribute-selector-causing-flag-targeting-web-interface-to-crash.md",
+      "source_name": "Launchdarkly",
+      "category": "Uncategorized",
+      "source_url": "https://status.launchdarkly.com/incidents/yltrp45vtxm2",
+      "domain": "status.launchdarkly.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.mailgun.com__mailgun-secondary-mongodb-servers-became-overloaded-and-while-troubleshooting-accidentally.md",
+      "source_name": "Mailgun",
+      "category": "Uncategorized",
+      "source_url": "https://status.mailgun.com/incidents/p9nxxql8g9rh",
+      "domain": "status.mailgun.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/mailchimp.com__mandrill-transaction-id-wraparound-in-postgres-caused-a-partial-outage-lasting-a-day-and-a.md",
+      "source_name": "Mandrill",
+      "category": "Uncategorized",
+      "source_url": "https://mailchimp.com/what-we-learned-from-the-recent-mandrill-outage/",
+      "domain": "mailchimp.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/medium.com__medium-polish-users-were-unable-to-use-their-s-key-on-medium.md",
+      "source_name": "Medium",
+      "category": "Uncategorized",
+      "source_url": "https://medium.com/medium-eng/the-curious-case-of-disappearing-polish-s-fa398313d4df",
+      "domain": "medium.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/metrist.io__metrist-azure-published-a-breaking-change-that-affected-downstream-systems-like-metrist-s-.md",
+      "source_name": "Metrist",
+      "category": "Uncategorized",
+      "source_url": "https://metrist.io/blog/how-we-found-azures-unannounced-breaking-change/",
+      "domain": "metrist.io",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/doneyles.com__nasa-a-design-flaw-in-the-apollo-11-rendezvous-radar-produced-excess-cpu-load-causing-the-.md",
+      "source_name": "NASA",
+      "category": "Uncategorized",
+      "source_url": "https://www.doneyles.com/LM/Tales.html",
+      "domain": "doneyles.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/en.wikipedia.org__nasa-use-of-different-units-of-measurement-metric-vs-english-caused-mars-climate-orbiter-t.md",
+      "source_name": "NASA",
+      "category": "Uncategorized",
+      "source_url": "https://en.wikipedia.org/wiki/Mars_Climate_Orbiter",
+      "domain": "en.wikipedia.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/research.microsoft.com__nasa-nasa-s-mars-pathfinder-spacecraft-experienced-system-resets-a-few-days-after-landing-.md",
+      "source_name": "NASA",
+      "category": "Uncategorized",
+      "source_url": "https://research.microsoft.com/en-us/um/people/mbj/Mars_Pathfinder/Authoritative_Account.html",
+      "domain": "research.microsoft.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/netflixtechblog.com__netflix-an-ebs-outage-in-one-availability-zone-was-mitigated-by-migrating-to-other-availab.md",
+      "source_name": "Netflix",
+      "category": "Uncategorized",
+      "source_url": "https://netflixtechblog.com/post-mortem-of-october-22-2012-aws-degradation-efcee3ab40d5",
+      "domain": "netflixtechblog.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/www3.epa.gov__north-american-electric-power-system-a-power-outage-in-ohio-around-1600h-edt-cascaded-up-t.md",
+      "source_name": "North American Electric Power System",
+      "category": "Uncategorized",
+      "source_url": "https://www3.epa.gov/region1/npdes/merrimackstation/pdfs/ar/AR-1165.pdf",
+      "domain": "www3.epa.gov",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/okta.com__okta-a-hackers-group-got-access-to-a-third-party-support-engineer-s-laptop.md",
+      "source_name": "Okta",
+      "category": "Uncategorized",
+      "source_url": "https://www.okta.com/blog/2022/03/oktas-investigation-of-the-january-2022-compromise/",
+      "domain": "okta.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/openai.com__openai-queues-for-requests-and-responses-in-a-redis-cache-became-corrupted-and-out-of-sequ.md",
+      "source_name": "OpenAI",
+      "category": "Uncategorized",
+      "source_url": "https://openai.com/blog/march-20-chatgpt-outage",
+      "domain": "openai.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/pagerduty.com__pagerduty-in-april-2013-pagerduty-https-web-archive-org-web-20220906003007-https-www-pager.md",
+      "source_name": "Pagerduty",
+      "category": "Uncategorized",
+      "source_url": "https://www.pagerduty.com/blog/outage-post-mortem-april-13-2013/",
+      "domain": "pagerduty.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.pagerduty.com__pagerduty-a-third-party-service-for-sending-sms-and-making-voice-calls-experienced-an-outa.md",
+      "source_name": "PagerDuty",
+      "category": "Uncategorized",
+      "source_url": "https://status.pagerduty.com/incidents/70m30bh7qfmx",
+      "domain": "status.pagerduty.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/paritytech.io__parity-30-million-of-cryptocurrency-value-was-diverted-stolen-with-another-150-million-div.md",
+      "source_name": "Parity",
+      "category": "Uncategorized",
+      "source_url": "https://paritytech.io/the-multi-sig-hack-a-postmortem/",
+      "domain": "paritytech.io",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/medium.com__platform-sh-outage-during-a-scheduled-maintenance-window-because-there-were-too-much-data-.md",
+      "source_name": "Platform.sh",
+      "category": "Uncategorized",
+      "source_url": "https://medium.com/@florian_7764/technical-post-mortem-of-the-august-incident-82ab4c3d6547",
+      "domain": "medium.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/reddit.com__reddit-experienced-an-outage-for-1-5-hours-followed-by-another-1-5-hours-of-degraded-perfo.md",
+      "source_name": "Reddit",
+      "category": "Uncategorized",
+      "source_url": "https://www.reddit.com/r/announcements/comments/4y0m56/why_reddit_was_down_on_aug_11/",
+      "domain": "reddit.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/reddit.com__reddit-outage-for-over-5-hours-when-a-critical-kubernetes-cluster-upgrade-failed-the-failu.md",
+      "source_name": "Reddit",
+      "category": "Uncategorized",
+      "source_url": "https://www.reddit.com/r/RedditEng/comments/11xx5o0/you_broke_reddit_the_piday_outage/",
+      "domain": "reddit.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.roblox.com__roblox-roblox-end-oct-2021-73-hours-outage-issues-with-consul-streaming-and-boltdb.md",
+      "source_name": "Roblox",
+      "category": "Uncategorized",
+      "source_url": "https://blog.roblox.com/2022/01/roblox-return-to-service-10-28-10-31-2021/",
+      "domain": "blog.roblox.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/help.salesforce.com__salesforce-initial-disruption-due-to-power-failure-in-one-datacenter-led-to-cascading-fail.md",
+      "source_name": "Salesforce",
+      "category": "Uncategorized",
+      "source_url": "https://help.salesforce.com/apex/HTViewSolution?urlname=Root-Cause-Message-for-Disruption-of-Service-on-NA14-May-2016&language=en_US",
+      "domain": "help.salesforce.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/help.salesforce.com__salesforce-on-september-20-2023-a-service-disruption-affected-a-subset-of-customers-across.md",
+      "source_name": "Salesforce",
+      "category": "Uncategorized",
+      "source_url": "https://help.salesforce.com/s/articleView?id=000396429&type=1",
+      "domain": "help.salesforce.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.sentry.io__sentry-transaction-id-wraparound-in-postgres-caused-sentry-to-go-down-for-most-of-a-workin.md",
+      "source_name": "Sentry",
+      "category": "Uncategorized",
+      "source_url": "https://blog.sentry.io/2015/07/23/transaction-id-wraparound-in-postgres",
+      "domain": "blog.sentry.io",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/scribd.com__shapeshift-poor-security-practices-enabled-an-employee-to-steal-200000-in-cryptocurrency-i.md",
+      "source_name": "Shapeshift",
+      "category": "Uncategorized",
+      "source_url": "https://www.scribd.com/doc/309574927/ShapeShift-Post-Mortem-Public",
+      "domain": "scribd.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/blog.skyliner.io__skyliner-a-memory-leak-in-a-third-party-library-lead-to-skyliner-being-unavailable-on-two-.md",
+      "source_name": "Skyliner",
+      "category": "Uncategorized",
+      "source_url": "https://blog.skyliner.io/post-mortem-outages-on-1-19-17-and-1-23-17-3f65cc6f693e",
+      "domain": "blog.skyliner.io",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/slackhq.com__slack-a-combination-of-factor-results-in-a-large-number-of-slack-s-users-being-disconnecte.md",
+      "source_name": "Slack",
+      "category": "Uncategorized",
+      "source_url": "https://slackhq.com/this-was-not-normal-really",
+      "domain": "slackhq.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/slack.engineering__slack-network-saturation-in-aws-s-traffic-gateways-caused-packet-loss-an-attempt-to-scale-.md",
+      "source_name": "Slack",
+      "category": "Uncategorized",
+      "source_url": "https://slack.engineering/slacks-outage-on-january-4th-2021/",
+      "domain": "slack.engineering",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/slack.engineering__slack-cache-nodes-removal-caused-the-high-workload-on-the-vitness-cluster-which-in-turn-ca.md",
+      "source_name": "Slack",
+      "category": "Uncategorized",
+      "source_url": "https://slack.engineering/slacks-incident-on-2-22-22/",
+      "domain": "slack.engineering",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/labs.spotify.com__spotify-lack-of-exponential-backoff-in-a-microservice-caused-a-cascading-failure-leading-t.md",
+      "source_name": "Spotify",
+      "category": "Uncategorized",
+      "source_url": "https://labs.spotify.com/2013/06/04/incident-management-at-spotify/",
+      "domain": "labs.spotify.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/medium.com__square-a-cascading-error-from-an-adjacent-service-lead-to-merchant-authentication-service-.md",
+      "source_name": "Square",
+      "category": "Uncategorized",
+      "source_url": "https://medium.com/square-corner-blog/incident-summary-2017-03-16-2f65be39297",
+      "domain": "medium.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/stackdriver.com__stackdriver-in-october-2013-stackdriver-https-www-stackdriver-com-experienced-an-outage-wh.md",
+      "source_name": "Stackdriver",
+      "category": "Uncategorized",
+      "source_url": "https://www.stackdriver.com/post-mortem-october-23-stackdriver-outage/",
+      "domain": "stackdriver.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/stackstatus.net__stack-exchange-enabling-stackegg-for-all-users-resulted-in-heavy-load-on-load-balancers-an.md",
+      "source_name": "Stack Exchange",
+      "category": "Uncategorized",
+      "source_url": "https://stackstatus.net/post/115305251014/outage-postmortem-march-31-2015",
+      "domain": "stackstatus.net",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/stackstatus.net__stack-exchange-backtracking-implementation-in-the-underlying-regex-engine-turned-out-to-be.md",
+      "source_name": "Stack Exchange",
+      "category": "Uncategorized",
+      "source_url": "https://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016",
+      "domain": "stackstatus.net",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/meta.stackoverflow.com__stack-exchange-porting-old-careers-2-0-code-to-the-new-developer-story-caused-a-leak-of-us.md",
+      "source_name": "Stack Exchange",
+      "category": "Uncategorized",
+      "source_url": "https://meta.stackoverflow.com/q/340960/2422776",
+      "domain": "meta.stackoverflow.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/stackstatus.net__stack-exchange-the-primary-sql-server-triggered-a-bugcheck-on-the-sql-server-process-causi.md",
+      "source_name": "Stack Exchange",
+      "category": "Uncategorized",
+      "source_url": "https://stackstatus.net/post/156407746074/outage-postmortem-january-24-2017",
+      "domain": "stackstatus.net",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/engineering.strava.com__strava-hit-the-signed-integer-limit-on-a-primary-key-causing-uploads-to-fail.md",
+      "source_name": "Strava",
+      "category": "Uncategorized",
+      "source_url": "https://engineering.strava.com/the-upload-outage-of-july-29-2014/",
+      "domain": "engineering.strava.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/support.stripe.com__stripe-manual-operations-are-regularly-executed-on-production-databases-a-manual-operation.md",
+      "source_name": "Stripe",
+      "category": "Uncategorized",
+      "source_url": "https://support.stripe.com/questions/outage-postmortem-2015-10-08-utc",
+      "domain": "support.stripe.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/pri.org__sweden-use-of-different-rulers-by-builders-caused-the-vasa-to-be-more-heavily-built-on-its.md",
+      "source_name": "Sweden",
+      "category": "Uncategorized",
+      "source_url": "https://www.pri.org/stories/2012-02-23/new-clues-emerge-centuries-old-swedish-shipwreck",
+      "domain": "pri.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/mail.tarsnap.com__tarsnap-a-batch-job-which-scans-for-unused-blocks-in-amazon-s3-and-marks-them-to-be-freed-.md",
+      "source_name": "Tarsnap",
+      "category": "Uncategorized",
+      "source_url": "https://mail.tarsnap.com/tarsnap-announce/msg00035.html",
+      "domain": "mail.tarsnap.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/businessinsider.com.au__telstra-a-fire-in-a-datacenter-caused-sms-text-messages-to-be-sent-to-random-destinations-.md",
+      "source_name": "Telstra",
+      "category": "Uncategorized",
+      "source_url": "https://www.businessinsider.com.au/a-fire-in-a-telstra-exchange-is-causing-flight-delays-and-network-outages-2017-2",
+      "domain": "businessinsider.com.au",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/sunnyday.mit.edu__therac-25-the-therac-25-was-a-radiation-therapy-machine-involved-in-at-least-six-accidents.md",
+      "source_name": "Therac-25",
+      "category": "Uncategorized",
+      "source_url": "http://sunnyday.mit.edu/papers/therac.pdf",
+      "domain": "sunnyday.mit.edu",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/tech.trivago.com__trivago-due-to-a-human-error-all-engineers-lost-access-to-the-central-source-code-manageme.md",
+      "source_name": "trivago",
+      "category": "Uncategorized",
+      "source_url": "https://tech.trivago.com/2021/10/05/postmortem-removing-all-users-from-github.com/trivago/",
+      "domain": "tech.trivago.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/twilio.com__twilio-in-2013-a-temporary-network-partition-in-the-redis-cluster-used-for-billing-operati.md",
+      "source_name": "Twilio",
+      "category": "Uncategorized",
+      "source_url": "https://www.twilio.com/blog/2013/07/billing-incident-post-mortem-breakdown-analysis-and-root-cause.html",
+      "domain": "twilio.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/status.twilio.com__twilio-twilio-s-incident-of-having-high-filtering-on-sms-towards-at-t-network-in-united-st.md",
+      "source_name": "Twilio",
+      "category": "Uncategorized",
+      "source_url": "https://status.twilio.com/incidents/wdrlk4qps0z1",
+      "domain": "status.twilio.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/github.com__valve-steam-s-desktop-client-deleted-all-local-files-and-directories-the-thing-i-find-most.md",
+      "source_name": "Valve",
+      "category": "Uncategorized",
+      "source_url": "https://github.com/valvesoftware/steam-for-linux/issues/3671",
+      "domain": "github.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/lists.ubuntu.com__xubuntu-the-website-for-xubuntu-a-derivative-of-ubuntu-linux-that-uses-xfce-as-its-desktop.md",
+      "source_name": "Xubuntu",
+      "category": "Uncategorized",
+      "source_url": "https://lists.ubuntu.com/archives/xubuntu-users/2025-November/012210.html",
+      "domain": "lists.ubuntu.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/web.archive.org__yeller-a-network-partition-in-a-cluster-caused-some-messages-to-get-delayed-up-to-6-7-hour.md",
+      "source_name": "Yeller",
+      "category": "Uncategorized",
+      "source_url": "https://web.archive.org/web/20201018145502/http://yellerapp.com/posts/2014-08-04-postmortem1.html",
+      "domain": "web.archive.org",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/zerodha.com__zerodha-the-order-management-system-oms-provided-to-zerodha-a-stock-broker-collapsed-when-.md",
+      "source_name": "Zerodha",
+      "category": "Uncategorized",
+      "source_url": "https://zerodha.com/marketintel/bulletin/229363/post-mortem-of-technical-issue-august-29-2019",
+      "domain": "zerodha.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/zerodha.com__zerodha-a-failure-of-the-primary-leased-line-to-a-ctcl-between-a-stock-broker-and-a-stock-.md",
+      "source_name": "Zerodha",
+      "category": "Uncategorized",
+      "source_url": "https://zerodha.com/marketintel/bulletin/105569/postmortem-trading-and-hanging-orders-on-12th-april-2018",
+      "domain": "zerodha.com",
+      "has_summary": true
+    },
+    {
+      "file": "data/postmortems/web.archive.org__availability-digest-website.md",
+      "source_name": "Availability Digest website",
+      "category": "Other lists of postmortems",
+      "source_url": "https://web.archive.org/web/20190914025003/http://www.availabilitydigest.com:80/articles.htm",
+      "domain": "web.archive.org",
+      "has_summary": false
+    },
+    {
+      "file": "data/postmortems/github.com__john-daily-s-list-of-postmortems-in-json.md",
+      "source_name": "John Daily's list of postmortems (in json)",
+      "category": "Other lists of postmortems",
+      "source_url": "https://github.com/macintux/Service-postmortems",
+      "domain": "github.com",
+      "has_summary": false
+    },
+    {
+      "file": "data/postmortems/quora.com__jeff-hammerbacher-s-list-of-postmortems.md",
+      "source_name": "Jeff Hammerbacher's list of postmortems",
+      "category": "Other lists of postmortems",
+      "source_url": "https://www.quora.com/Jeff-Hammerbacher/Post-mortems",
+      "domain": "quora.com",
+      "has_summary": false
+    },
+    {
+      "file": "data/postmortems/llis.nasa.gov__nasa-lessons-learned-database.md",
+      "source_name": "NASA lessons learned database",
+      "category": "Other lists of postmortems",
+      "source_url": "https://llis.nasa.gov/",
+      "domain": "llis.nasa.gov",
+      "has_summary": false
+    },
+    {
+      "file": "data/postmortems/wikitech.wikimedia.org__wikimedia-s-postmortems.md",
+      "source_name": "Wikimedia's postmortems",
+      "category": "Other lists of postmortems",
+      "source_url": "https://wikitech.wikimedia.org/wiki/Incident_documentation",
+      "domain": "wikitech.wikimedia.org",
+      "has_summary": false
+    },
+    {
+      "file": "data/postmortems/web.archive.org__autopsy-io-s-list-of-startup-failures.md",
+      "source_name": "Autopsy.io's list of Startup failures",
+      "category": "Other lists of postmortems",
+      "source_url": "https://web.archive.org/web/20190101075846/http://autopsy.io/",
+      "domain": "web.archive.org",
+      "has_summary": false
+    },
+    {
+      "file": "data/postmortems/github.com__lorin-hochstein-s-list-of-major-incidents.md",
+      "source_name": "Lorin Hochstein's list of major incidents",
+      "category": "Other lists of postmortems",
+      "source_url": "https://github.com/lorin/major-incidents",
+      "domain": "github.com",
+      "has_summary": false
+    },
+    {
+      "file": "data/postmortems/github.com__awesome-tech-postmortems.md",
+      "source_name": "Awesome Tech Postmortems",
+      "category": "Other lists of postmortems",
+      "source_url": "https://github.com/snakescott/awesome-tech-postmortems",
+      "domain": "github.com",
+      "has_summary": false
+    }
+  ]
+}
