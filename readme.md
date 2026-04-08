@@ -134,13 +134,3 @@ cd Agentic-RAG-Postmortem-Reporting
 
 pip install -r requirements.txt
 ```
-
-## Project Structure
-
-├── data/                  # Postmortems, logs, runbooks
-├── embeddings/            # Vector store setup
-├── agents/                # Agent orchestration logic
-├── tools/                 # Individual tools (search, logs, RCA)
-├── pipelines/             # End-to-end workflows
-├── main.py                # Entry point
-└── README.md
